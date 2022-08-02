@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  font-family:Inter;
+}
+
+.card--image{
+  width:125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.block-wrapper{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.block-text{
+  display:flex;
+  flex-direction:column;
+  margin-left:20px;
+}
+
+.block-text--top{
+  display:flex;
+  margin-bottom:4px;
+}
+
+.card-location{
+  font-size:10px;
+  text-transform:uppercase;
+  margin-right:12px;
+}
+
+.card-link{
+  font-size:10px;
+  color:#918E9B;
+  text-decoration:underline;
+}
+
+.card-title{
+  font-size:25px;
+  font-weight:700;
+  margin-bottom:7px;
+}
+
+.card-period{
+  font-size: 10px;
+  font-weight:700;
+  margin-bottom:9px
+}
+
+.card-paragraph{
+  font-size:10px;
+}
